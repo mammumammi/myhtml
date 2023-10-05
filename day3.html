@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+<body>
+    <h1>form tags,embed contents and  clickable image links</h1>
+    <p>embed is used to embed contents from a html to the one prsent now and track contents is used to add audio or subs etc to a video etc etc</p>
+   <h3><embed src="MOdule1\Mera Mann Kehne Laga - Nautanki Saala! 320 Kbps.mp3" type="audio"></h3> 
+    <track src="MOdule1\tata.mp4">
+   <form action="/action_page.php">
+    <label for="email">email:</label>
+    <br>
+    <input type="text" id="email" name="email">
+    <br><br>
+    <input type="submit" value="submit">
+    </form>
+    <form>
+        <fieldset>
+    <p>the next one is about textarea.It is a type of form tags where multiline input is accessible</p>
+    <textarea name="text3" rows="6" cols="20">my textarea</textarea>
+    <p>next is select tag used to create a dropdown list</p>
+    <label for="cars">choose a car:</label>
+    <select name="cars" id="cars">
+        <option value="lamborghini">lamborghini</option>
+        <option value="bugatti">Bughatti</option>
+        <option value="ferrari">Ferrari</option>
+        </select>
+        </fieldset>
+        <p>next is about fieldset which is used to create a datasheet type of thinngs where u could create more input sets in the webpage and relate one another inside this fieldset</p>
+        <fieldset>
+            name:<input type="text" name="fname"><br>
+            password:<input type="password" name="pass"><br>
+        </fieldset>
+        <p>next is about datalist,datalist is a tag which is used to create searchable dropdownlists</p>
+        <input type="search" placeholder="search" list="data" />
+        <datalist id="data">
+            <option value="HTML" >
+            <option value="CSS" >
+            <option value="Javascript" >
+        </datalist>
+        <p>next is about button tags,it can be used as buttons for any actions in the webpage</p>
+        <input type="text" name="names" id="names">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </select>
+   </form>
+   <p>next we studied about was table tag</p>
+   <table width="15%" border="1">
+    <tr>
+        <th>anime</th>
+        <th>genre</th>
+        <th>rating</th>
+    </tr>
+    <tr>
+        <td>Jujutsu Kaisen</td>
+        <td>action</td>
+        <td>9.8/10</td>
+    </tr>
+    <tr>
+        <td>Naruto Shippuden</td>
+        <td>Drama</td>
+        <td>9/10</td>
+    </tr>
+    <tr>
+        <td>Bleach</td>
+        <td>Thriller</td>
+        <td>9.5/10</td>
+    </tr>
+   </table>
+   <p>"next we studied from the article about clickable images<br>It is of two types.<br><br>1.serverside image maps</p>
+   <p>click the following link</p>
+   <a href="https://www.google.com/"><img ismap src="C:\Users\Aashin\Downloads\ggogle.png"></a>
+   <p>"next we studied about client side image clickable links.<br>this can make a portion of the image clickable</p>
+   <p>Click the following</p>
+   <image src="C:\Users\Aashin\Downloads\ggogle.png" alt="file not found" usemap="#html"/>
+   <map name="html">
+    <area shape="rect" coords="5,5,40,40" alt="something went wrong" href="https://www.google.com/">
+   </map>
+</body>
+</html>
+<img style="margin: ;"
